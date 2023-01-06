@@ -10,7 +10,7 @@ MEMORY
  .reset . : 
  {
  startup.o (.text)
- }
+ } >Mem
  .text : 
  {
  *(.text) *(.rodata)
